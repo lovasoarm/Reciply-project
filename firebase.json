@@ -1,0 +1,1 @@
+{"flutter":{"platforms":{"android":{"default":{"projectId":"reciply-project","appId":"1:399185054535:android:a878af38623f9b49a95a62","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"reciply-project","configurations":{"android":"1:399185054535:android:a878af38623f9b49a95a62","web":"1:399185054535:web:e70e8adcd1a7ba4ca95a62"}}}}}}

@@ -1,0 +1,49 @@
+name: reciply
+description: "Reciply is a modern recipe management app that allows users to create, edit, and organize their favorite recipes. With an intuitive interface and cloud synchronization, users can access their recipes anytime, anywhere."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.13.0
+  firebase_auth: ^5.5.2
+  cloud_firestore: ^5.6.6
+  provider: ^6.1.4
+  intl: ^0.20.2
+  package_info_plus: ^8.3.0
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo/logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo/logo.png
+    - assets/images/auth/auth_img.png
+    - assets/images/recettes/
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
+          weight: 500
+    - family: DancingScript
+      fonts:
+        - asset: assets/fonts/dancingscript/DancingScript-Regular.ttf
