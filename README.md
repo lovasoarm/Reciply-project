@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # Reciply - Version 1.0
 
 Reciply est une application mobile de gestion de recettes développée avec Flutter. Elle permet aux utilisateurs de gérer leurs recettes préférées, leurs ingrédients, de créer des listes de courses et de sauvegarder leurs recettes favorites. L'application prend en charge les comptes utilisateurs, ce qui permet de synchroniser les données entre les plateformes Android et iOS.
